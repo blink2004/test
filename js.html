@@ -9,15 +9,6 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
 	<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
-	<script type="text/javascript">
-		var el = document.createElement( 'input' ),
-			txt;
-
-		for ( var prop in navigator ){
-			txt += prop + ' ' + '';
-		}
-
-	</script>
 
 </head>
 
@@ -31,7 +22,7 @@
 
 	<div class="middle">
 
-		<div class="container">
+		<div class="container" id="container2">
 			<main class="content">
 				
 			</main><!-- .content -->
@@ -42,6 +33,51 @@
 		</aside><!-- .left-sidebar -->
 
 	</div><!-- .middle-->
+
+	<script type="text/javascript">
+		var el = document.createElement( 'input' ),
+			el2 = document.createElement( 'input' ),
+			txt = '';
+
+		with ( el ){
+			type = 'button';
+			value = 'Click me!';
+			style.padding = '5px';
+			style.marginLeft = '300px';
+			style.marginTop = '20px';
+			onclick = function() {
+				// alert( 't' );	
+				this.parentNode.removeChild( this );
+				el2.style.marginLeft = '300px';
+				el2.style.marginTop = '5px';
+				console.log( document.getElementById( 'container2' ) );
+			}
+		}
+
+		with ( el2 ){
+			type = 'button';
+			value = 'Delete button';
+			style.padding = '5px';
+			style.marginTop = '5px';
+			onclick = function() {
+				document.getElementById( 'container2' ).removeChild( this );
+			}
+		}
+
+		window.onload = function() {
+			document.getElementById( 'container2' ).appendChild( el );
+			document.getElementById( 'container2' ).appendChild( el2 );
+
+			console.log( document.getElementById( 'container2' ) );
+		}
+
+		// (function(){
+		// 	for ( var prop in screen ){
+		// 		txt += prop + ' ' + screen[prop] + '\n';
+		// 	}
+		// })()
+
+	</script>
 
 </div><!-- .wrapper -->
 
