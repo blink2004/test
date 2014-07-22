@@ -68,6 +68,9 @@ body {
 .header {
 	height: 100px;
 	background: #FFE680;
+	font-style: italic;
+	font-size: 1.5em;
+	padding: 5px;
 }
 
 
@@ -110,8 +113,12 @@ input.send {
 	height: 40px;
 }
 .control-group {
-	
+	padding: 5px;
 }
+.control-group:hover {
+	background-color: #D4DEF7;
+}
+
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
@@ -138,4 +145,6 @@ input.send {
 	background: #BFF08E;
 	position: relative;
 	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
 }
