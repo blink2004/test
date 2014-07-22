@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Form validator</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="../css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+	<style type="text/css">
+		#registration {
+			margin: 30px auto 80px;
+			width: 500px;
+		}
+		fieldset {
+			border: 1px solid #ccc;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		legend {
+			margin: auto 5px;
+			font-weight: bold;
+		}
+	</style>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+
+		$( document ).ready( function() {
+
+		    /**
+			* init jQ Validate plugin
+			*/
+			$( "#registration" ).validate({
+				debug: false,
+				success: "valid",
+				rules: {
+					uname: {
+						required: true
+					},
+					password: {
+						required: true,
+						minlength: 8
+					},
+					repassword: {
+						equalTo: '#password'
+					},
+					email: {
+						required: true,
+						email: true
+					}
+				},
+				messages: {
+					input: "Error"
+				},
+				errorClass: "help-inline"
+			});
+
+		});
+
+	</script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<strong>Header:</strong> Using jQuery Validate plugin and Bootstrap
+	</header><!-- .header-->
+
+	<main class="content">
+		<form action="" class="form-horizontal" method="post" id="registration">
+			<fieldset>
+				<legend>User data</legend>
+				<div class="control-group">
+					<label class="control-label" for="uname">User name: </label>
+					<div class="controls">
+						<input type="input" class="" name="uname" id="uname" value="" placeholder="" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="fname">First name: </label>
+					<div class="controls">
+						<input type="input" name="fname" id="fname" value="" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="password">Password: </label>
+					<div class="controls">
+						<input type="password" name="password" id="password" value="" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="repassword">Retype password: </label>
+					<div class="controls">
+						<input type="password" name="repassword" id="repassword" value="" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="email">E-mail: </label>
+					<div class="controls">
+						<input type="input" name="email" id="email" value="" />
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label" for="age">Age: </label>
+					<select class="span2" id="age">
+						<option value="">less 13</option>
+						<option value="">13-15</option>
+						<option value="">15-18</option>
+						<option value="">18-21</option>
+						<option value="">21-24</option>
+						<option value="">24-17</option>
+					</select>
+				</div>							
+				<div class="control-group">
+					<input type="submit" class="btn btn-primary" name="register" value="Register" >
+				</div>								
+			</fieldset>
+		</form>
+	</main><!-- .content -->
+
+	<footer class="footer">
+		<strong>© 2014</strong> Konstyatyn Moklyakov
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>
