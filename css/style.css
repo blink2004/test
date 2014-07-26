@@ -114,9 +114,10 @@ input.send {
 }
 .control-group {
 	padding: 5px;
+	border-radius: 5px;
 }
 .control-group:hover {
-	background-color: #D4DEF7;
+	background-color: #f1f4fd;
 }
 
 

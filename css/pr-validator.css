@@ -1,0 +1,38 @@
+@charset utf-8;
+
+#registration {
+	margin: 30px auto 80px;
+	width: 500px;
+}
+fieldset {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+legend {
+	margin: auto 5px;
+	font-weight: bold;
+}
+
+.validator-body {
+	margin: 10px auto;
+	padding: 5px;
+}
+.validator-body .td {
+	/*margin: auto 5px;*/
+	padding: 3px;
+	border: 1px solid #d4def7;
+	border-radius: 5px;
+}
+
+.statistic-data {
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+
+.statistic-data td {
+	width: 40px;
+	border: 1px solid #d4def7;
+	border-radius: 3px;
+	text-align: center;
+}
