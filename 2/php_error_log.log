@@ -1,0 +1,106 @@
+[23-Sep-2014 16:21:02 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:21:02 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:21:02 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:21:02 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:35:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:35:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:35:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:35:03 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:52:44 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:52:44 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:52:44 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:52:44 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:59:06 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:59:06 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:59:06 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 16:59:06 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:08:17 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:08:17 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:08:17 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:08:17 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:09:21 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:09:21 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:09:21 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:09:21 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:14:46 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:14:46 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:14:46 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 17:14:46 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 18:41:51 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 18:41:51 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): simple.xml in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 18:41:51 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 18:41:51 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:13
+Stack trace:
+#0 D:\server\www\test\2\xml.php(13): SimpleXMLElement->__construct('simple.xml')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 18:46:59 Europe/Kiev] PHP Fatal error:  Class 'simplexml_load_file' not found in D:\server\www\test\2\xml.php on line 13
+[23-Sep-2014 22:11:27 Europe/Kiev] PHP Fatal error:  Call to undefined function SimpleXMLElement() in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 22:14:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 22:14:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 22:14:03 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 22:14:03 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 22:15:13 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:13 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:13 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:13 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:14
+Stack trace:
+#0 D:\server\www\test\2\xml.php(14): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:16 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:16 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:16 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 22:15:16 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:14
+Stack trace:
+#0 D:\server\www\test\2\xml.php(14): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 14
+[23-Sep-2014 23:11:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:20 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:52 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:52 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:52 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 15
+[23-Sep-2014 23:11:52 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15

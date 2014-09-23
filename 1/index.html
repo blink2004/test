@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Test task</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="../css/style.css" rel="stylesheet" />
+	<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<style type="text/css">
+		.width-auto { width: auto; }
+		.controls-block { padding: 5px; }
+		.controls-block input { margin: 3px; }
+	</style>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+
+		$( document ).ready(function() {
+			
+			// select count of input blocks and add them
+			$( '#adult-cnt' ).on( 'change', function(){
+				
+				$( '#users-group' ).empty();
+
+				var _cnt = $( this ).find( 'option:selected' ).val();
+				for ( var i = 0; i < _cnt; i++ ) {
+					var _input_first_name_el = '<input type="text" class="form-control width-auto" name="first_name_' + i + '" value="" placeholder="Adult ' + ( i + 1 ) + ' first name" />';
+					var _input_last_name_el = '<input type="text" class="form-control width-auto" name="last_name_' + i + '" value="" placeholder="Adult ' + ( i + 1 ) + ' last name" />';
+					var _output_group = '<div class="controls controls-block">' + _input_first_name_el + _input_last_name_el + '</div>';
+
+					$( '#users-group' ).append( _output_group );
+				};
+
+			});
+
+		});
+
+	</script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		Test task
+	</header><!-- .header-->
+
+	<main class="content" style="margin-bottom: 60px;">
+
+		<form action="" name="" class="form">
+			<fieldset>
+			
+				<select id="adult-cnt" class="form-control width-auto">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+
+				<div class="control-group" id="users-group">
+				</div>
+				
+				<input type="submit" class="btn" name="send" value="Send" />
+			
+			</fieldset>
+		</form>
+
+	</main><!-- .content -->
+
+	<footer class="footer">
+		© 2014 <a href="mailto:blink2004@mail.ru">Konstyantyn M</a>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>
