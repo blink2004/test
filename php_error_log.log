@@ -12,3 +12,4 @@
 [16-Aug-2014 01:32:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected '&' in D:\server\www\test\index.php on line 11
 [16-Aug-2014 01:32:26 Europe/Kiev] PHP Parse error:  syntax error, unexpected '&' in D:\server\www\test\index.php on line 11
 [16-Aug-2014 01:33:01 Europe/Kiev] PHP Notice:  Undefined variable: test in D:\server\www\test\index.php on line 11
+[04-Nov-2014 19:17:00 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$title' (T_VARIABLE), expecting ',' or ';' in D:\server\www\test\index.php on line 15

@@ -11,17 +11,19 @@
    	$fileName = 'simple.xml';
 
    	$xmlDom = simplexml_load_file( $fileName );
-   	
-   	$xml = new SimpleXMLElement( $xmlDom );
 
-   	try {
+	var_dump( $xmlDom );
 
-   		print_r( $xml );
-   	
-   	} catch (Exception $e){
+   	// $xml = new SimpleXMLElement( $xmlDom );
 
-   		var_dump( $e );
+   	// try {
+
+   	// 	print_r( $xml );
    	
-   	}
+   	// } catch (Exception $e){
+
+   	// 	var_dump( $e );
+   	
+   	// }
 
    	// echo $xml->movie->{'great-line'}->line;

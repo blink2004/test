@@ -1,0 +1,13 @@
+# binaries files
+
+	# images
+	*.(jpeg|jpg|png|bmp)
+	
+	# audio
+	*.(mp3|mp4|wav)
+
+# logs
+	*.log
+
+# folders
+	zip/

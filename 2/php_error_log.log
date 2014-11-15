@@ -104,3 +104,27 @@ Stack trace:
 #0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('\n \n')
 #1 {main}
   thrown in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 01:44:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 3: parser error : Start tag expected, '&lt;' not found in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 01:44:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct():  in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 01:44:20 Europe/Kiev] PHP Warning:  SimpleXMLElement::__construct(): ^ in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 01:44:20 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('\n \n')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 01:49:32 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 02:06:19 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 10:24:30 Europe/Kiev] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in D:\server\www\test\2\xml.php:15
+Stack trace:
+#0 D:\server\www\test\2\xml.php(15): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in D:\server\www\test\2\xml.php on line 15
+[24-Sep-2014 10:26:56 Europe/Kiev] PHP Notice:  Undefined variable: xml in D:\server\www\test\2\xml.php on line 22
